@@ -1,5 +1,38 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* fonts */
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* common css */
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+.gray01 {
+  color: #8987a1;
+}
+
+
+
+/* header section  start*/
+
+.navbar {
+  padding: 30px 0;
+}
+
