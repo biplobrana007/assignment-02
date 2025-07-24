@@ -63,7 +63,7 @@
 }
 
 /* responsive */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 640px) {
   .navbar {
     margin-top: 20px;
   }
