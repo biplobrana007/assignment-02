@@ -93,6 +93,23 @@
 .deals-offres{
   margin: 120px 0;
 }
+/* join section starts */
+
+.join-section{
+  padding: 200px 0;
+}
+
+.join-input{
+  margin-top: 25px;
+}
+
+.join-input [type="email"]{
+  padding: 20px 20px;
+}
+
+.join-input button{
+  padding: 20px 50px;
+}
 
 /* responsive */
 @media screen and (max-width: 640px) {
@@ -128,6 +145,12 @@
   
 .deals-offres{
   margin: 40px 0;
+}
+.join-input [type="email"]{
+  padding: 20px 20px;
+}
+.join-input button{
+  padding: 20px 20px;
 }
 
 }
