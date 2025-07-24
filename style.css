@@ -25,14 +25,12 @@
   margin: auto;
 }
 
-.orange{
-  color: #E95A08;
+.orange {
+  color: #e95a08;
 }
 .gray01 {
   color: #8987a1;
 }
-
-
 
 /* header section  start*/
 
@@ -40,20 +38,48 @@
   padding: 30px 0;
 }
 
-.banner{
+.banner {
   margin: 120px 0;
 }
 
-
-/* responsive */
-@media screen and (max-width:576px) {
-  .navbar{
-    margin: 0 20px;
-  }
-
-  .banner-left{
-    margin: 28px 16px 65px 16px;
-  }
-  
+.banner-sub-title {
+  margin-top: 15px;
 }
 
+/* plants section */
+.plants-section {
+  margin: 120px auto;
+}
+.plants-sub-title {
+  margin: 20px 0;
+}
+
+.flower-name {
+  margin-top: 30px;
+}
+.add-to-cart {
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+  .navbar {
+    margin-top: 20px;
+  }
+  .navbar,
+  .banner-left,
+  .plants-section {
+    padding: 0 16px;
+  }
+  .banner {
+    margin: 0;
+  }
+  .banner-right {
+    margin: 28px 0;
+  }
+
+  .plants-section {
+    margin: 40px 0;
+  }
+}
