@@ -24,6 +24,10 @@
   max-width: 1140px;
   margin: auto;
 }
+
+.orange{
+  color: #E95A08;
+}
 .gray01 {
   color: #8987a1;
 }
@@ -36,11 +40,19 @@
   padding: 30px 0;
 }
 
+.banner{
+  margin: 120px 0;
+}
+
 
 /* responsive */
 @media screen and (max-width:576px) {
   .navbar{
     margin: 0 20px;
+  }
+
+  .banner-left{
+    margin: 28px 16px 65px 16px;
   }
   
 }
