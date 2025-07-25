@@ -79,35 +79,33 @@
   margin: 20px auto;
 }
 
-
-.offer-bg-shadow{
+.offer-bg-shadow {
   padding: 65px 0;
-
 }
 
-.offer-btn{
+.offer-btn {
   padding-top: 20px;
   padding-bottom: 0;
 }
 
-.deals-offres{
+.deals-offers {
   margin: 120px 0;
 }
 /* join section starts */
 
-.join-section{
+.join-section {
   padding: 200px 0;
 }
 
-.join-input{
+.join-input {
   margin-top: 25px;
 }
 
-.join-input [type="email"]{
+.join-input [type="email"] {
   padding: 20px 20px;
 }
 
-.join-input button{
+.join-input button {
   padding: 20px 50px;
 }
 
@@ -138,19 +136,25 @@
     margin: 0 0 20px 25px;
   }
 
-  .lover-subtitle-list{
+  .lover-subtitle-list {
     margin-top: 20px;
   }
 
-  
-.deals-offres{
-  margin: 40px 0;
-}
-.join-input [type="email"]{
-  padding: 20px 20px;
-}
-.join-input button{
-  padding: 20px 20px;
-}
+  .latest-deals {
+    margin-bottom: 40px ;
+  }
 
+  .deals-offers {
+    margin: 40px 0;
+  }
+  .join-input [type="email"] {
+    padding: 20px 20px;
+  }
+  .join-input button {
+    padding: 20px 20px;
+  }
+
+  .join-section {
+    padding: 110px 0 68px 0;
+  }
 }
